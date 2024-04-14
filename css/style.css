@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 30px;
+    font-size: 30px; 
+    line-height: 60px;   
+}
+h1{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center ;
+    color: red;
+}
+
+label, input, button {
+    margin-bottom: 35px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #070706;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#productInfo, #productImage {
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#searchInput {
+    width: 100%; /* Set the width of the input box */
+    padding: 10px;
+    font-size: 16px;
+}
